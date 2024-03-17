@@ -1,0 +1,10 @@
+<h1>Livros disponiveis</h1>
+<ul class="containerLivros">
+    {{#each books}}
+        <li class="subcontainerLivros">
+            <h2>{{title}}</h2>
+            <p>Quantidade de Páginas: {{pages}}</p>
+            <p>Autor: {{author}}</p>
+        </li>
+    {{/each}}
+</ul>
